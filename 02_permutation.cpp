@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-    int arr[3] = {1, 2, 3};
-
+    int arr[3] = {2, 1, 3};
+    sort(arr, arr+3); //오름차순으로 정렬해줄 것!
     do {
         for(int i = 0; i < 3; i ++) {
             cout << arr[i] << ' ';
